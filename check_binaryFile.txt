@@ -1,0 +1,29 @@
+
+         1   assign_v  global_a         0  string_a         0     nil_a         0
+         1   assign_v  global_a         1  global_a         0     nil_a         0
+         2      jeq_v   label_a         7    bool_a         1    bool_a         1
+         0 funcenter_vuserfunc_a         0     nil_a         7     nil_a         7
+         0   assign_v  retval_a         0  string_a         1     nil_a         7
+         4      jeq_v   label_a         6    bool_a         1    bool_a         1
+         0   assign_vuserfunc_a         0     nil_a         7     nil_a         7
+         7      jeq_v   label_a        12    bool_a         1    bool_a         1
+         0 funcenter_vuserfunc_a         1     nil_a         7     nil_a         7
+         0   assign_v  retval_a         0  formal_a         1     nil_a         7
+         8      jeq_v   label_a        11    bool_a         1    bool_a         1
+         0   assign_vuserfunc_a         1     nil_a         7     nil_a         7
+         0     call_vuserfunc_a         0     nil_a         7     nil_a         7
+         0   assign_v  global_a         1  retval_a         0     nil_a         7
+        10   assign_v  global_a         0  global_a         1     nil_a         0
+        10   assign_v  global_a         1  global_a         0     nil_a         0
+         0  pusharg_v  global_a         0     nil_a         7     nil_a         7
+         0     call_v libfunc_a         0     nil_a         7     nil_a         7
+         0   assign_v  global_a         1  retval_a         0     nil_a         7
+         0  pusharg_v  number_a         0     nil_a         7     nil_a         7
+         0  pusharg_v  number_a         1     nil_a         7     nil_a         7
+         0     call_vuserfunc_a         1     nil_a         7     nil_a         7
+         0   assign_v  global_a         2  retval_a         0     nil_a         7
+        12   assign_v  global_a         1  global_a         2     nil_a         0
+        12   assign_v  global_a         2  global_a         1     nil_a         0
+         0  pusharg_v  global_a         1     nil_a         7     nil_a         7
+         0     call_v libfunc_a         0     nil_a         7     nil_a         7
+         0   assign_v  global_a         2  retval_a         0     nil_a         7

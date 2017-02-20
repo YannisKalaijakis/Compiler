@@ -1,0 +1,15 @@
+magic number: 340200501
+program vars: 3
+total strings: 1
+strings[0]: "aaa" (size: 6)
+total numbers: 0
+total userfuncs: 0
+total libfuncs: 1
+libfuncs[0]: print (size: 6)
+
+#   OP             ARG1                ARG2                RESULT              
+
+1   assign         1(global), 0		|0(label), 0		|1(global), 2
+2   pusharg        1(global), 0		|0(label), 0		|1(global), 2
+3   call           9(libfunc), 0:print		|NULL		|NULL
+4   assign         10(retval), 0		|NULL		|1(global), 1
